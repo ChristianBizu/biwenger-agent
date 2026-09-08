@@ -1,1 +1,16 @@
+# Reglas privadas de la liga (opcional, específicas de cada usuario).
 config/league_rules.py
+
+# Credenciales locales (nunca se commitean; usa Secrets en Cloud Agents).
+.env
+
+# Entorno virtual de Python.
+.venv/
+
+# Base de datos SQLite de desarrollo.
+*.db
+
+# Cachés de Python y pytest.
+__pycache__/
+*.py[cod]
+.pytest_cache/
